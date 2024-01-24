@@ -1,0 +1,313 @@
+/* index.html media query*/
+
+@media screen and (max-width:1530px){
+   .users__jobs-carts{
+      column-gap: 11px !important;
+   }
+
+   .user__job-cart {
+      width: 32.6% !important;
+   }
+
+   .user__about-search {
+      padding: 16px 16px 16px 32px !important;
+   }
+
+   .user__about--location {
+      padding: 16px 16px 16px 24px !important;
+   }
+
+   .user__about--time {
+      gap: 26px !important;
+   }
+}
+
+@media screen and (max-width:1440px) {
+   .tri2 {
+      left: 16% !important;
+   }
+
+   .user__about-search {
+      padding: 16px 16px 16px 32px !important;
+   }
+
+   .user__about--location {
+      padding: 16px 16px 16px 24px !important;
+   }
+
+   .user__about--time {
+      gap: 26px !important;
+   }
+
+   .users__jobs-carts{
+      column-gap: 11px !important;
+   }
+
+
+   .user__job-cart {
+      width: 32.6% !important;
+   }
+}
+
+@media screen and (max-width:1212px){
+   .user__about{
+      width: 45% !important;
+   }
+
+   .users__jobs-carts{
+      column-gap: 11px !important;
+   }
+
+   .user__job-cart{
+      min-width: 48% !important;
+   }
+}
+
+@media screen and (max-width:1024px){
+   .user__job-cart{
+      width: 49% !important;
+   }
+}
+
+
+@media screen and (max-width:768px) {
+
+   .container {
+      width: 90% !important;
+   }
+
+   .type,
+   .tri3 {
+      display: none;
+   }
+
+   .tri2 {
+      left: 42% !important;
+   }
+
+   .user__about-search {
+      padding: 16px 16px 16px 24px !important;
+   }
+
+   .user__about--time {
+      gap: 28px !important;
+   }
+
+   .primary {
+      padding: 16px 14px !important;
+   }
+
+
+   .users__jobs-carts {
+      gap: 65px 11px !important;
+   }
+
+   .user__job-cart {
+      min-width: 49.1% !important;
+   }
+}
+
+@media screen and (max-width:676px){
+   .user__job-cart{
+      width: 100% !important;
+   }
+}
+
+@media screen and (max-width:375px) {
+
+   .navbar {
+      overflow: hidden;
+      border-radius: 0 !important;
+   }
+
+   .container {
+      width: 90% !important;
+   }
+
+   .tri3,
+   .search__logo {
+      display: none !important;
+   }
+
+   .tri2 {
+      left: 66% !important;
+      top: 1px !important;
+   }
+
+   .tri1 {
+      top: 38px !important;
+   }
+
+   .user__about-search {
+      padding: 16px 16px 16px 24px !important;
+   }
+
+   .user__about--title {
+      border: 0 !important;
+   }
+
+
+   .user__about-filter {
+      display: flex !important;
+      padding: 16px 16px 16px 24px !important;
+      align-items: center;
+      gap: 24px;
+   }
+
+   .user__about-form{
+      flex-direction: column !important;
+      overflow-y: hidden;
+      height: 84px;
+   }
+
+   .user__about{
+      width: 100% !important;
+   }
+
+   .form__user {
+      transform: scale(0) !important;
+      position: relative;
+      z-index: 3;
+      transition: transform all 0.8s ease;
+   }
+   
+   .overlay.change {
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      inset: 0;
+      opacity: 0.4965;
+      background: #000;
+   }
+   .form__user.clicked {
+      display: block !important;
+      width: 95% !important;
+      transform: scale(1) !important;
+      position: fixed;
+      top: 43%;
+      left: 10px;
+      background: var(--white);
+      border-radius: 6px;
+      z-index: 2 !important;
+      opacity: 1 !important;
+      transition: transform 0.8s;
+   }
+
+
+   .form__user.clicked .user__about--location {
+      border-bottom: 1px solid #F4F6F8;
+   }
+
+   .form__user.clicked .user__about--time {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px !important;
+   }
+
+   .form__user.clicked .user__about--location,
+   .form__user.clicked .user__about--time {
+      padding: 24px !important;
+   }
+
+   .form__user.clicked .user__about--time .primary {
+      width: 100%;
+   }
+
+   .user__filter > svg{
+      fill: var(--dark-grey);
+   }
+
+   .users__jobs-carts {
+      margin-top: 17% !important;
+   }
+
+   .users__jobs-carts.index {
+      opacity: 0.2;
+   }
+
+   .user__job-cart {
+      min-width: 100% !important;
+   }
+}
+
+
+/* detail.html media query*/
+
+@media screen and (max-width:768px) {
+   .content {
+      width: 90% !important;
+   }
+}
+
+@media screen and (max-width:375px) {
+
+   .users{
+      top: -18px !important;
+   }
+
+   .users__jobs{
+      flex-direction: column;
+      gap: 24px;
+   }
+
+   
+   .users__jobs-logo {
+      width: 50px !important;
+      height: 50px !important;
+      flex-shrink: 0 !important;
+      margin-top: -26px;
+   }
+   
+   .users__jobs-logo > img{
+      border-radius: 15px;
+   }
+
+   .user__jobs-about{
+      flex-direction: column;
+      gap: 27px;
+      padding: 0 40px 32px 40px !important;
+   }
+
+   .jobs__info{
+      align-items: center;
+   }
+
+   .jobs__info-title,
+   .users__info-duty{
+      font-size: 20px !important;
+   }
+
+   .users__details{
+      padding: 40px 23px !important;
+   }
+
+
+   .users__info{
+      flex-direction: column;
+      align-items: flex-start !important;
+      gap: 54px;
+   }
+
+   .users__info-article{
+      gap: 12px !important;
+   }
+
+   .jobs__about-lists{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+   }
+
+   .footer__info-subs{
+      display: none !important;
+   }
+
+   .users__footer{
+      margin-top: 54px;
+   }
+
+   .suc{
+      width: 100%;
+   }
+}

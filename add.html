@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>New Jobs </title>
+   <link rel="shortcut icon" href="assets/images/figma_logo (1).svg" type="image/x-icon">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <link rel="stylesheet" href="assets/fonts/icomoon-v1.0/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Allan&family=Anton&family=Baskervville&family=Bebas+Neue&family=DM+Serif+Display&family=Inter&family=Kumbh+Sans&family=Libre+Baskerville&family=Lora&family=Merriweather&family=Metal+Mania&family=Nosifer&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Playfair+Display&family=Poppins&family=Raleway&family=Roboto&family=Space+Mono&family=Ubuntu&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+   <nav class="navbar">
+      <div class="navbar__head container">
+         <a href="index.html" class="navbar__logo">
+            <img src="assets/images/devjobs.svg" alt="devjobs">
+         </a>
+         <div class="navbar__modes">
+            <figure class="navbar__modes-light">
+               <img src="assets/images/Combined Shape.svg" alt="Combined">
+            </figure>
+            <div id="toggle">
+               <i class="identifikator"></i>
+            </div>
+            <figure class="navbar__modes-dark">
+               <img src="assets/images/Combined Shape (1).svg" alt="Combined2">
+            </figure>
+         </div>
+      </div>
+
+      <div class="navbar__bg tri1">
+         <img src="assets/images/Triangle Copy 2.svg" alt="Triangle">
+      </div>
+      <div class="navbar__bg tri2">
+         <img src="assets/images/Triangle Copy.svg" alt="Triangle2">
+      </div>
+      <div class="navbar__bg tri3">
+         <img src="assets/images/Triangle.svg" alt="Triangle3">
+      </div>
+   </nav>
+   <main class="user__about-main middle new__main">
+      <div class="new__main-head">
+         <h2>Add New Data</h2>
+      </div>
+      <form class="new__main-form" id="add__form">
+         <div class="new__main-id">
+            <label for="form-id" class="form__id">
+               <span>ID</span>
+               <input type="text" name="ID" id="form-id" class="form__input" placeholder="id...">
+            </label>
+         </div>
+         <div class="new__main-title">
+            <label for="form-title" class="form__id">
+               <span>Image URL</span>
+               <input type="text" name="title" id="form-title" class="form__input" placeholder="Image URL...">
+            </label>
+         </div>
+         <div class="new__main-type">
+            <i class="fa fa-angle-down"></i>
+            <div class="new__main-selects">
+               <span>Full Time</span>
+               <ul class="new__main-select">
+                  <li class="new__main-option option--full">Full Time</li>
+                  <li class="new__main-option option--part">Part Time</li>
+               </ul>
+            </div>
+         </div>
+         <div class="new__main-duty">
+            <label for="form-duty" class="form__id">
+               <span>Duty</span>
+               <input type="text" name="duty" id="form-duty" class="form__input" placeholder="Duty...">
+            </label>
+         </div>
+         <div class="new__main-job">
+            <label for="form-job" class="form__id">
+               <span>Job</span>
+               <input type="text" name="job" id="form-job" class="form__input" placeholder="Job...">
+            </label>
+         </div>
+         <div class="new__main-residence">
+            <label for="form-residence" class="form__id">
+               <span>Residence</span>
+               <input type="text" name="residence" id="form-residence" class="form__input" placeholder="Residence...">
+            </label>
+         </div>
+
+
+         <div class="new__main-residence">
+            <label for="form-site" class="form__id">
+               <span>InnerData-Site</span>
+               <input type="text" name="site" id="form-site" class="form__input" placeholder="Residence...">
+            </label>
+         </div>
+         <div class="new__main-residence">
+            <label for="form-inner_Information" class="form__id">
+               <span>InnerData-Information</span>
+               <input type="text" name="inner_info" id="form-inner_Information" class="form__input"
+                  placeholder="Residence...">
+            </label>
+         </div>
+         <div class="new__main-residence">
+            <label for="form-requirements_information" class="form__id">
+               <span>Requirements-Information</span>
+               <input type="text" name="requi_info" id="form-requirements_information" class="form__input"
+                  placeholder="Residence...">
+            </label>
+         </div>
+         <div class="lists_page">
+            <div class="new__main-residence">
+               <label for="form-requirements_lists" class="form__id">
+                  <span>Requirements-Lists-ID</span>
+                  <input type="text" name="requi_list_id" id="form-requirements_lists" class="form__input"
+                     placeholder="Residence...">
+               </label>
+            </div>
+            <div class="new__main-residence form__id">
+              
+                  <span>Requirements-Lists-text</span>
+                  <textarea name="requi_list_text" id="what_list_text" cols="30" rows="10" class="form__input" placeholder="Requirements information lists..."></textarea>
+               
+            </div>
+         </div>
+         <div class="new__main-residence">
+            <label for="form-requirements_information" class="form__id">
+               <span>What_Do_Will_Do-Information</span>
+               <input type="text" name="whatdo_info" id="form-What_Do_Will_Do_information" class="form__input"
+                  placeholder="Residence...">
+            </label>
+         </div>
+         <div class="lists_page">
+            <div class="new__main-residence">
+               <label for="form-requirements_lists" class="form__id">
+                  <span>What_Do_Will_Do-Lists-ID</span>
+                  <input type="text" name="whatdo_list_id" id="form-What_Do_Will_Do_lists" class="form__input"
+                     placeholder="Residence...">
+               </label>
+            </div>
+            <div class="new__main-what_lists form__id">
+
+               <span>What_Do_Will_Do-Lists-text</span>
+               <textarea name="whatdo_list_text" id="what_lists_text" cols="30" rows="10" class="form__input" placeholder="What do will do in the future?"></textarea>
+
+            </div>
+            <div class="add_New_List">
+               
+            </div>
+            
+
+            <button type="button" class="btn__list-add">+</button>
+
+         </div>
+
+         <div class="new__main-btn">
+            <a href="index.html" class="btn__light-violet primary">Cancel</a>
+            <button type="submit" class="btn__violet primary add" disabled>Added</button>
+         </div>
+      </form>
+   </main>
+</body>
+<script src="assets/js/app.js"></script>
+
+</html>

@@ -1,0 +1,75 @@
+.filter__input::placeholder,
+.filter__input {
+   color: var(--very-dark-blue);
+   font-size: 16px;
+   font-weight: 400;
+   opacity: 0.5;
+}
+
+.filter__input {
+   opacity: 1;
+   flex: 1;
+   width: 100%;
+   background: var(--white);
+}
+
+.user__workType {
+   color: var(--very-dark-blue);
+   font-size: 16px;
+   font-weight: 700;
+   white-space: nowrap;
+}
+
+.user__job-company,
+.user__job-time,
+.jobs__info-subtitle,
+.users__info-workTime,
+.footer__info-user {
+   color: #6E8098;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.user__job-duty,
+.jobs__about-title,
+.footer__info-title {
+   color: var(--very-dark-blue);
+   font-size: 20px;
+   font-weight: 700;
+   white-space: nowrap;
+}
+
+.user__job-residence,
+.users__info-residence {
+   color: #5964E0;
+   font-size: 14px;
+   font-weight: 700;
+}
+
+
+.jobs__info-title {
+   color: var(--very-dark-blue);
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.users__info-duty {
+   color: var(--very-dark-blue);
+   font-size: 28px;
+   font-weight: 700;
+}
+
+
+.users__jobs-about,
+.jobs__about-subtitle,
+.list__option {
+   color: #6E8098;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   /* 162.5% */
+}
+
+.list__option{
+   flex: 1;
+}

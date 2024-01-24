@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>New Jobs </title>
+   <link rel="shortcut icon" href="assets/images/figma_logo (1).svg" type="image/x-icon">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <link rel="stylesheet" href="assets/fonts/icomoon-v1.0/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Allan&family=Anton&family=Baskervville&family=Bebas+Neue&family=DM+Serif+Display&family=Inter&family=Kumbh+Sans&family=Libre+Baskerville&family=Lora&family=Merriweather&family=Metal+Mania&family=Nosifer&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Playfair+Display&family=Poppins&family=Raleway&family=Roboto&family=Space+Mono&family=Ubuntu&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+   <nav class="navbar">
+      <div class="navbar__head container">
+         <a href="index.html" class="navbar__logo">
+            <img src="assets/images/devjobs.svg" alt="devjobs">
+         </a>
+         <div class="navbar__modes">
+            <figure class="navbar__modes-light">
+               <img src="assets/images/Combined Shape.svg" alt="Combined">
+            </figure>
+            <div id="toggle">
+               <i class="identifikator"></i>
+            </div>
+            <figure class="navbar__modes-dark">
+               <img src="assets/images/Combined Shape (1).svg" alt="Combined2">
+            </figure>
+         </div>
+      </div>
+
+      <div class="navbar__bg tri1">
+         <img src="assets/images/Triangle Copy 2.svg" alt="Triangle">
+      </div>
+      <div class="navbar__bg tri2">
+         <img src="assets/images/Triangle Copy.svg" alt="Triangle2">
+      </div>
+      <div class="navbar__bg tri3">
+         <img src="assets/images/Triangle.svg" alt="Triangle3">
+      </div>
+   </nav>
+
+   <main class="user__about-main container">
+      <form class="user__about-form">
+
+         <div class="overlay"></div>
+
+         <div class="user__about">
+
+            <div class="user__about-search user__about--title">
+               <figure class="search__logo">
+                  <img src="assets/images/003-search 2.svg" alt="Combined">
+               </figure>
+               <input type="text" name="text" id="search__input" class="filter__input"
+                  placeholder="Filter by title, companies, expertise…" autocomplete="off">
+            </div>
+
+            <div class="user__about-filter">
+               <figure class="user__filter">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                     <path
+                        d="M19.1076 1.50591e-06H0.860224C0.538187 -0.000593357 0.243138 0.175089 0.0960199 0.454871C-0.0531279 0.738422 -0.0269509 1.07987 0.163593 1.33883L6.84866 10.5411C6.85089 10.5443 6.85333 10.5473 6.85556 10.5504C7.09845 10.8709 7.22995 11.2591 7.23056 11.6579V19.1605C7.22914 19.3825 7.31842 19.5961 7.47853 19.7537C7.63884 19.9112 7.85677 20 8.08405 20C8.19951 19.9998 8.31396 19.9774 8.4207 19.934L12.1772 18.5345C12.5136 18.4339 12.7371 18.1236 12.7371 17.75V11.6579C12.7377 11.2591 12.8692 10.8709 13.1118 10.5504C13.1141 10.5473 13.1165 10.5443 13.1187 10.5411L19.804 1.33864C19.9946 1.07987 20.0207 0.73862 19.8716 0.45507C19.7247 0.175089 19.4294 -0.000593357 19.1076 1.50591e-06Z" />
+                  </svg>
+               </figure>
+               <figure class="filter__search">
+                  <img src="assets/images/Group 5 Copy 2.svg" alt="Group5">
+               </figure>
+            </div>
+         </div>
+
+         <div class="form__user">
+            <div class="user__about-search user__about--location">
+               <figure class="location__logo">
+                  <img src="assets/images/placeholder 2.svg" alt="placeholder">
+               </figure>
+               <input type="text" name="location" id="location__input" class="filter__input"
+                  placeholder="Filter by location…" autocomplete="off">
+            </div>
+            <div class="user__about-search user__about--time">
+               <div class="user__about-checked">
+                  <input type="checkbox" name="checkbox" id="check__input">
+                  <span class="user__workType">Full Time <span class="type">Only</span></span>
+               </div>
+               <button class="btn__violet primary" type="submit">Search</button>
+            </div>
+         </div>
+      </form>
+
+      <div class="users__jobs-carts">
+         
+      </div>
+      <div class="more__user-jobs">
+         <a href="add.html" class="btn__violet success">Add Data</a>
+      </div>
+   </main>
+</body>
+<script src="assets/js/app.js"></script>
+
+</html>

@@ -1,0 +1,95 @@
+#check__input {
+   appearance: none;
+   -webkit-appearance: none;
+   width: 24px;
+   height: 24px;
+   border-radius: 3px;
+   /* opacity: 0.1035; */
+   background: #9daec269;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+#check__input::after {
+   font-family: "Font Awesome 5 Free";
+   content: "\f00c";
+   font-weight: 900;
+   font-size: 18px;
+   color: #FFF;
+   display: none;
+}
+
+#check__input:checked::after {
+   display: block;
+}
+
+#check__input:checked {
+   background: #5964E0;
+}
+
+.btn__violet {
+   background: #5964E0;
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 700;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+.btn__violet:active{
+   background: #939BF4;
+}
+
+.primary {
+   padding: 16px 36px !important;
+}
+
+.success {
+   padding: 16px 30px;
+}
+
+.suc{
+   padding: 16px 28px;
+}
+
+.btn__light-violet {
+   border-radius: 5px;
+   background: var(--light-violet);
+   color: var(--violet);
+   padding: 16px 20px;
+   font-size: 16px;
+   font-weight: 700;
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+
+.btn__light-violet:active{
+   background: var(--light-violet-active);
+}
+
+.add:disabled{
+   opacity: 0.5;
+}
+
+.btn__plus{
+   padding: 6px;
+   background: #5964E0;
+   color: #FFF;
+   font-size: 12px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.btn__list-add{
+   width: 8%;
+   padding-block-end: 4px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 17px;
+   border-radius: 10px;
+   cursor: pointer;
+}
